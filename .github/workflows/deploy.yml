@@ -33,7 +33,6 @@ jobs:
         run: |
           mkdir -p output
           cp index.html output/index.html
-          touch output/.nojekyll
 
       - name: Upload HTMLs as artifact
         uses: actions/upload-artifact@v4
